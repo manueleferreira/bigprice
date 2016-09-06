@@ -1,2 +1,1 @@
-web: pip install django-filter
-
+web: gunicorn bigprice.wsgi --log-file -
